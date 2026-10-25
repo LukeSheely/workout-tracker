@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App styles live in WorkoutTracker.jsx; this only keeps the page behind it in theme. */
+html { min-height: 100%; -webkit-text-size-adjust: 100%; }
+body { margin: 0; min-width: 280px; background: #f3f4f6; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+html.dark body { background: #111416; }
